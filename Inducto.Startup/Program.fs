@@ -2,9 +2,6 @@ module Inducto.Library.Main
 
 open System
 
-
-// Hello from my home
-
 type Gender =
     | Male
     | Female
