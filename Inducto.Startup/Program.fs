@@ -113,7 +113,7 @@ type Driver(id, name, age, salary, gender) =
 
 let Employees = [ for n in 0 .. 1000 -> Employee(n, GetRandomName(), GetRandomAge(), GetRandomSalary(), GetRandomGender()) ]
 
-printfn "\n\n PERSONS:\n"
-Employees |> Seq.iter(fun i -> printfn $"{i.ToString()}" )
+printfn "\nPERSONS:\n"
+Employees |> Seq.iter(fun employee -> printfn $"{employee}" )
 
 
